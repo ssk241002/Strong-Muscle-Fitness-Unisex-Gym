@@ -54,18 +54,22 @@ export function Hero({ onOpenInquiry }: HeroProps) {
             </div>
 
             {/* Main Headline */}
-            <div className="space-y-2">
-              <h1 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-[1.1]">
-                Sculpt Your Best Self at{" "}
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 via-amber-300 to-yellow-500">
-                  Strong Muscle Fitness
+            <div className="space-y-3">
+              <h1 className="text-3xl sm:text-5xl lg:text-6xl font-black tracking-tight text-white leading-[1.12]">
+                <span className="block text-amber-400 font-black drop-shadow-sm">
+                  Strong Muscle Fitness Unisex Gym
                 </span>
               </h1>
-              <p className="text-base sm:text-lg text-neutral-300 font-normal leading-relaxed max-w-2xl">
-                Chennai’s top-rated 100% Unisex Gym in Thirumullaivoyal on MTH Road. 
-                Equipped with heavy commercial grade strength machines, dedicated cardio line, 
-                certified trainer guidance, and clean motivating atmosphere for men & women.
-              </p>
+
+              {/* 2 small lines for tagline */}
+              <div className="space-y-1 pt-1 max-w-2xl">
+                <p className="text-base sm:text-lg text-neutral-200 font-medium leading-normal">
+                  Transform your strength and fitness with certified coaching and premium equipment.
+                </p>
+                <p className="text-sm sm:text-base text-neutral-400 font-normal leading-normal">
+                  Thirumullaivoyal’s top-rated 100% unisex training floor on MTH Road — open 7 days a week.
+                </p>
+              </div>
             </div>
 
             {/* Key Feature Badges Grid */}
