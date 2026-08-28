@@ -1,0 +1,6 @@
+{
+  "name": "Strong Muscle Fitness Unisex Gym",
+  "description": "Interactive modern landing page for Strong Muscle Fitness Unisex Gym in Thirumullaivoyal, Chennai. Explore facilities, timings, location, and member reviews.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
